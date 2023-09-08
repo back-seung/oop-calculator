@@ -1,0 +1,1 @@
+package main.calculator.model;public record Result(CalculateExpression expression, double result) {    public String getResult() {        return expression().getExpression() + " : " + result();    } // 출력용?}

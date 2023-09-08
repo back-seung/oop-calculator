@@ -1,0 +1,1 @@
+package main.common.exception;public class ExpressionEmptyException extends NullPointerException {    private final static String MESSAGE = "아무런 연산 명령이 없습니다";    public ExpressionEmptyException() {        super(MESSAGE);    }}

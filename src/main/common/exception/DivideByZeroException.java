@@ -1,0 +1,1 @@
+package main.common.exception;public class DivideByZeroException extends ArithmeticException {    // 기본 정의 예외 -> 보편화된 예외    private static final String MESSAGE = "0으로 나눌 수 없습니다";}

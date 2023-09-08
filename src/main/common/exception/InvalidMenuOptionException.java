@@ -1,0 +1,1 @@
+package main.common.exception;public class InvalidMenuOptionException extends IllegalArgumentException {    private final static String MESSAGE = "선택한 메뉴는 없는 메뉴입니다.";    public InvalidMenuOptionException() {        super(MESSAGE);    }}

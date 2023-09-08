@@ -1,0 +1,1 @@
+package main.calculator.repository;import main.calculator.model.Result;import java.util.List;public interface Storage {    void save(Result result);    List<Result> findAll();}
