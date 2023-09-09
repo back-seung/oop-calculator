@@ -1,0 +1,1 @@
+package main.calculator.model;public record RequestExpression(String expression) {}
