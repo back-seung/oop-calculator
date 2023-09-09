@@ -1,1 +1,0 @@
-package main.common.exception;public class SymbolNotFoundException extends IllegalArgumentException {    private static final String MESSAGE = "연산자가 [+, -, /, *] 이 아닙니다";}
